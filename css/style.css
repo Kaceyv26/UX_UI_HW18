@@ -1,0 +1,139 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+    color: #4B1515;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: end;
+}
+.navigation {
+    display: flex;
+    background-color:white;
+}
+nav {
+    width: 98%;
+    padding: 1%;
+    text-align: end;
+    margin-left: auto;
+}
+ul {
+    width: 50%;
+    margin-left: auto;
+    padding-left: 10px;
+}
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+.content {
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+}
+footer {
+    background-color: white;
+    font-family: "source-sans-3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 100px;
+    text-align: center;
+}
+ul {
+    display: inline-block;
+    vertical-align: top;
+}
+.hoverme {
+    background-color: #F7DDD4;
+    padding: 10px 20px;
+    border: none;
+    transition: 0.3s;
+    border-radius: 16px;
+}
+.hoverme:hover {
+    background-color:#F1D8CF;
+    font-weight: bold;
+    font-style: italic;
+}
+h1 {
+    background-color: #EDF3E7;
+    border: 100px solid #EDF3E7;
+    text-align: center;
+    font-family: "relation-one", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: #4B1515;
+}
+.buttons {
+    color: #4B1515;
+    font-family: "source-sans-3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+#linkedin {
+    margin-left: 100px;
+}
+#dribble {
+    margin-left: 20px;
+}
+#behance {
+    margin-left: 20px;
+}
+.socials {
+    margin-right: 558px;
+    margin-top: 30px;
+}
+#resume {
+    margin-left: 450px;
+}
+p {
+    color: #315516;
+    font-family: "source-sans-3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 100px;
+    text-align: center;
+    margin-top: -1px;
+}
+h2 {
+    text-align: center;
+    font-family: "relation-one", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 35px;
+    color: #4B1515;
+    margin-top: -30px;
+}
+.skillslist {
+    text-align: center;
+}
+.inline-block2 {
+    display: inline-block;
+    padding: 0px 70px;
+    font-family: "relation-one", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 30px;
+    color: #4B1515;
+}
+.allskills {
+    display: flex;
+    padding: 20px 350px;
+}
+.inline-block3 {
+    color: #315516;
+    font-family: "source-sans-3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.designlist {
+    margin-left: -60px;
+}
+.softlist {
+    margin-left: -115px;
+}
