@@ -64,9 +64,9 @@ h1 {
     background-color: #EDF3E7;
     border: 100px solid #EDF3E7;
     text-align: center;
-    font-family: 'Merienda', sans-serif;
+    font-family: 'Expletus Sans', cursive;
     font-weight: 700;
-    font-style: normal;
+    font-style: italic;
     font-size: 50px;
     color: #4B1515;
 }
@@ -79,8 +79,10 @@ p {
     text-align: center;
     margin-top: -1px;
 }
+button {
+    color:#4B1515;
+}
 .buttons {
-    color: #4B1515;
     font-family: "source-sans-3", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -95,16 +97,16 @@ p {
 }
 h2 {
     text-align: center;
-    font-family: 'Merienda', sans-serif;
+    font-family: 'Expletus Sans', cursive;
     font-weight: 500px;
-    font-style: normal;
+    font-style: italic;
     font-size: 30px;
     color: #4B1515;
 }
 h3 {
     text-align: center;
-    font-family: 'Merienda', sans-serif;
-    font-weight: 500px;
+    font-family: 'Expletus Sans', cursive;
+    font-weight: 400px;
     font-style: normal;
     font-size: 26px;
     color: #4B1515;
@@ -136,7 +138,7 @@ h3 {
     grid-area: myArea myArea myArea;
 }
 h4 {
-    font-family: 'Merienda', sans-serif;
+    font-family: 'Expletus Sans', cursive;
     font-weight: 500px;
     font-style: normal;
     font-size: 26px;
