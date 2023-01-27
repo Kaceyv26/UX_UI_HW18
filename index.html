@@ -7,7 +7,9 @@
     <title>Kacey's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/amm0xxd.css">
-    <link rel="stylesheet" href="https://use.typekit.net/amm0xxd.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
 </head>
 <body>
     <header class="navigation">
@@ -24,7 +26,7 @@
         </nav>
     </header>
         <h1>
-            About Me
+            Welcome!
         </h1>
     <section class="heroImg">
         <div class="content">
@@ -54,46 +56,105 @@
         </button>
         </div>
     </section>
+     <!--  My UX Skills section coded using CSS flex -->
     <section class="myskills">
         <h2>My Skills</h2>
-        <div class="skillslist">
-        <ul>
-            <li class="inline-block2">Research</li>
-            <li class="inline-block2">Design</li>
-            <li class="inline-block2">Software</li>
-        </ul>
-        </div>
-        <div class="allskills" style="position: relative; bottom: 38px">
-        <div class="researchlist">
-            <ul style="padding: 0px 80px; margin-left: 20px">
-                <li class="inline-block3">User Interviews</li>
-                <li class="inline-block3">Usability Testing</li>
-                <li class="inline-block3">Personas</li>
-                <li class="inline-block3">Journey Mapping</li>
-                <li class="inline-block3">User Flows</li>
-            </ul>
+        <div class="flexContainer">
+            <div>
+                <img src="images/research.png">
+                <h3>
+                    Research
+                </h3>
+                <ul style="width: 100%">
+                    <li class="inline-block1">User Interviews</li>
+                    <li class="inline-block1">Usability Testing</li>
+                    <li class="inline-block1">Personas</li>
+                    <li class="inline-block1">Journey Mapping</li>
+                    <li class="inline-block1">User Flows</li>
+                </ul>
+            </div>
+            <div>
+                <img src="images/design.png">
+                <h3>
+                    Design
+                </h3>
+                <ul style="width: 100%">
+                    <li class="inline-block1">Interaction Design</li>
+                    <li class="inline-block1">Wireframing</li>
+                    <li class="inline-block1">Lo-Hi Fidelity Prototyping</li>
+                    <li class="inline-block1">Web Design</li>
+                    <li class="inline-block1">Mobile Design</li>
+                </ul>
+            </div>
+            <div>
+                <img src="images/software.png">
+                <h3>
+                    Software
+                </h3>
+                <ul style="width: 100%">
+                    <li class="inline-block1">Figma</li>
+                    <li class="inline-block1">Miro</li>
+                    <li class="inline-block1">InVision</li>
+                    <li class="inline-block1">Procreate</li>
+                    <li class="inline-block1">Google Slides</li>
+                </ul>
          </div>
-         <div class="designlist">
-            <ul style="padding: 0px 90px">
-                <li class="inline-block3">Interaction Design</li>
-                <li class="inline-block3">Wireframing</li>
-                <li class="inline-block3">Lo-Hi Fidelity Prototyping</li>
-                <li class="inline-block3">Web Design</li>
-                <li class="inline-block3">Mobile Design</li>
-            </ul>
+    </section>
+    <!-- My Work Section Constructed using CSS Grid -->
+    <section class="My Work">
+        <h2>My Work</h2>
+        <div class="workGrid">
+            <div class="cooka">
+                <img src="images/cooka pic.png" style="width: 450px; height: 350px;">
             </div>
-          <div class="softlist">
-            <ul style="padding: 0px 80px">
-                <li class="inline-block3">Figma</li>
-                <li class="inline-block3">Miro</li>
-                <li class="inline-block3">InVision</li>
-                <li class="inline-block3">Procreate</li>
-                <li class="inline-block3">Google Slides</li>
-            </ul>
+            <div>
+            <h4>
+                Cooka
+            </h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Viverra suspendisse risus montes ipsum lectus tellus proin neque.
+            </p>
+            <button>
+                Check it out
+            </button>
+            </div>
+            <div class="abags">
+                <img src="images/adventure bags pic.png" style="width: 450px; height: 350px;">
+            </div>
+            <div>
+            <h4>
+                Adventure Bags
+            </h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Viverra suspendisse risus montes ipsum lectus tellus proin neque.
+            </p>
+            <button>
+                Check it out
+            </button>
+            </div>
+            <div>
+                <img src="images/doe pic.png" style="width: 450px; height: 350px;">
+            </div>
+            <div class="doe">
+            <h4>
+                Department of Education
+            </h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Viverra suspendisse risus montes ipsum lectus tellus proin neque.
+            </p>
+            <button>
+                Check it out
+            </button>
             </div>
         </div>
+        <h3>
+            View All Projects
+        </h3>
     </section>
     <footer>
+        <div class="email">
+            Email@gmail.com
+        </div>
         <ul>
             <li class="inline-block">Work</li>
             <li class="inline-block">About</li>

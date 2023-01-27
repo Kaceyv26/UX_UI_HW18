@@ -12,6 +12,9 @@
 .navigation {
     display: flex;
     background-color:white;
+    font-family: "source-sans-3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 nav {
     width: 98%;
@@ -39,7 +42,6 @@ footer {
     font-family: "source-sans-3", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-left: 100px;
     text-align: center;
 }
 ul {
@@ -62,34 +64,11 @@ h1 {
     background-color: #EDF3E7;
     border: 100px solid #EDF3E7;
     text-align: center;
-    font-family: "relation-one", sans-serif;
+    font-family: 'Merienda', sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 50px;
     color: #4B1515;
-}
-.buttons {
-    color: #4B1515;
-    font-family: "source-sans-3", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-}
-#linkedin {
-    margin-left: 100px;
-}
-#dribble {
-    margin-left: 20px;
-}
-#behance {
-    margin-left: 20px;
-}
-.socials {
-    margin-right: 558px;
-    margin-top: 30px;
-}
-#resume {
-    margin-left: 450px;
 }
 p {
     color: #315516;
@@ -100,40 +79,77 @@ p {
     text-align: center;
     margin-top: -1px;
 }
+.buttons {
+    color: #4B1515;
+    font-family: "source-sans-3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.email {
+    font-family: "source-sans-3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #4B1515;
+}
 h2 {
     text-align: center;
-    font-family: "relation-one", sans-serif;
-    font-weight: 100px;
-    font-style: normal;
-    font-size: 35px;
-    color: #4B1515;
-    margin-top: -30px;
-}
-.skillslist {
-    text-align: center;
-}
-.inline-block2 {
-    display: inline-block;
-    padding: 0px 70px;
-    font-family: "relation-one", sans-serif;
-    font-weight: 100px;
+    font-family: 'Merienda', sans-serif;
+    font-weight: 500px;
     font-style: normal;
     font-size: 30px;
     color: #4B1515;
 }
-.allskills {
-    display: flex;
-    padding: 20px 350px;
+h3 {
+    text-align: center;
+    font-family: 'Merienda', sans-serif;
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 26px;
+    color: #4B1515;
 }
-.inline-block3 {
+.flexContainer {
+    display: flex;
+    width: 40%;
+    flex-direction: row;
+    text-align: center;
     color: #315516;
     font-family: "source-sans-3", sans-serif;
     font-weight: 400;
     font-style: normal;
+    justify-content: space-between;
 }
-.designlist {
-    margin-left: -60px;
+.workGrid {
+    display: flex;
+    display: grid;
+    grid-template-areas: 'myArea';
+    grid-template-columns: 400px;
 }
-.softlist {
-    margin-left: -115px;
+.cooka {
+    grid-area: myArea;
+}
+.abags {
+    grid-area: myArea myArea;
+}
+.doe {
+    grid-area: myArea myArea myArea;
+}
+h4 {
+    font-family: 'Merienda', sans-serif;
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 26px;
+    color: #4B1515;
+}
+@media only screen and (max-width: 600) {
+    .flexContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+    .workGrid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        grid-template-areas: "cooka" "abags" "doe";
+    }
 }
