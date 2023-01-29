@@ -7,9 +7,7 @@
     <title>Kacey's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/amm0xxd.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/amm0xxd.css">
 </head>
 <body>
     <header class="navigation">
@@ -32,33 +30,31 @@
         <div class="content">
             <img src="images/me.png" width="50%">
         <div>
-            <p> Hey, I'm Kacey!<br><br>
+            <p class="about"> Hey, I'm Kacey!<br><br>
                 As a UX/UI Designer, I love helping others bring their ideas to life. I'm passionate about ensuring that my clients get exactly what they want while also solving the problem to the best of my ability.<br><br>
                 Before pursuing a career in design, I worked in the food industry but I knew that I wanted something more. I've always loved creating things whether it was graphics for friends and family members, drawings, or video edits. Designing allows me to fully be myself in a creative world that's constantly expanding every day. I’m always trying to learn and improve, but I believe that what makes me different is the desire I have to bring happiness to others through design.<br><br>
                 Outside of designing I enjoy reading, singing my little heart out, and eating yummy food (specifically honey garlic wings and anything with potatoes).
             </p>
+            <button class="hoverme" id="resume" style="margin-left: 265px; margin-top: 15px">
+                Resume 
+            </button>
         </div>
         </div>
         <div class="buttons">
-        <div class="socials">
-        <button class="hoverme" id="linkedin">
+        <button class="hoverme" style="margin-right: 20px">
             LinkedIn
         </button>
-        <button class="hoverme" id="dribble">
+        <button class="hoverme" style="margin-right: 20px">
             Dribble
         </button>
-        <button class="hoverme" id="behance">
+        <button class="hoverme">
             Behance
-        </button>
-        </div>
-        <button class="hoverme" id="resume" style="position: relative; bottom: 38px">
-            Resume 
         </button>
         </div>
     </section>
      <!--  My UX Skills section coded using CSS flex -->
     <section class="myskills">
-        <h2>My Skills</h2>
+        <h2>My Skills</h2><br>
         <div class="flexContainer">
             <div>
                 <img src="images/research.png">
@@ -100,54 +96,55 @@
                 </ul>
          </div>
     </section>
+    <br><br><br><br><br>
     <!-- My Work Section Constructed using CSS Grid -->
-    <section class="My Work">
-        <h2>My Work</h2>
+    <section class="mywork">
+        <h2>My Work</h2><br>
         <div class="workGrid">
             <div class="cooka">
-                <img src="images/cooka pic.png" style="width: 450px; height: 350px;">
+                <img src="images/cooka pic.png" style="width: 450px; height: 350px">
             </div>
             <div>
-            <h4>
+            <h4 style="margin-top: 30px">
                 Cooka
             </h4>
-            <p>
+            <p class="description">
                 Lorem ipsum dolor sit amet consectetur. Viverra suspendisse risus montes ipsum lectus tellus proin neque.
             </p>
-            <button>
+            <button class="hoverme">
                 Check it out
             </button>
             </div>
             <div class="abags">
-                <img src="images/adventure bags pic.png" style="width: 450px; height: 350px;">
+                <img src="images/adventure bags pic.png" style="width: 450px; height: 350px; margin-top: 35px">
             </div>
             <div>
             <h4>
                 Adventure Bags
             </h4>
-            <p>
+            <p class="description">
                 Lorem ipsum dolor sit amet consectetur. Viverra suspendisse risus montes ipsum lectus tellus proin neque.
             </p>
-            <button>
+            <button class="hoverme">
                 Check it out
             </button>
+            </div class="doe">
+            <div>
+                <img src="images/doe pic.png" style="width: 450px; height: 350px; margin-top: 35px">
             </div>
             <div>
-                <img src="images/doe pic.png" style="width: 450px; height: 350px;">
-            </div>
-            <div class="doe">
             <h4>
                 Department of Education
             </h4>
-            <p>
+            <p class="description">
                 Lorem ipsum dolor sit amet consectetur. Viverra suspendisse risus montes ipsum lectus tellus proin neque.
             </p>
-            <button>
+            <button class="hoverme">
                 Check it out
             </button>
             </div>
         </div>
-        <h3>
+        <h3 style="font-weight: 700;">
             View All Projects
         </h3>
     </section>
