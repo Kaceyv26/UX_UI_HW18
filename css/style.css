@@ -64,7 +64,7 @@ h1 {
     background-color: #EDF3E7;
     border: 100px solid #EDF3E7;
     text-align: center;
-   font-family: "utopia-std-display", serif;
+    font-family: utopia-std-caption, serif;
     font-weight: 700;
     font-style: italic;
     font-size: 50px;
@@ -117,7 +117,7 @@ h2 {
 }
 h3 {
     text-align: center;
-    font-family: "utopia-std-subhead", serif;
+    font-family: utopia-std-subhead, serif;
     font-weight: 600;
     font-style: italic;
     font-size: 26px;
@@ -151,8 +151,8 @@ h3 {
     grid-area: myArea myArea myArea;
 }
 h4 {
-    font-family: "utopia-std-subhead", serif;
-    font-weight: 700;
+    font-family: utopia-std-subhead, serif;
+    font-weight: 600;
     font-style: italic;
     font-size: 26px;
     color: #4B1515;
