@@ -90,6 +90,9 @@ button {
     margin-right: 465px;
     padding: 25px;
 }
+#check {
+    margin-top: 40px;
+}
 .email {
     font-family: "source-sans-3", sans-serif;
     font-weight: 400;
